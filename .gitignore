@@ -1,28 +1,22 @@
-# IDE configuration files
+# IDE, Python cache, models...
 .idea/
-
-# Python cache and compiled files
 __pycache__/
 *.pyc
-
-# Trained models
 *.pkl
 
 # --- DATA & RESULTS ---
 
-# Ignore all contents of these folders...
-data/excel/*
-data/json/*
+# 1. Ignore ALL .xlsx and .json files in the entire project
+*.xlsx
+*.json
 
-# ...but keep the folders themselves so Git can look inside
-!data/excel/
-!data/json/
+# 2. Now, create specific exceptions for the files to KEEP
+# The leading slash '/' anchors the path to the root of the project.
 
-# Now, add exceptions for the files you want to KEEP
-!subject_name_map.json
-!data/excel/248D1A053X_Results.xlsx
-!data/excel/248D1A053Q_Results.xlsx
-!data/excel/248D1A053!_Results.xlsx
-!data/json/248D1A0531_Info.json
-!data/json/248D1A053Q_Info.json
-!data/json/248D1A053X_Info.json
+!/subject_name_map.json
+!/data/excel/248D1A053X_Results.xlsx
+!/data/excel/248D1A053Q_Results.xlsx
+!/data/excel/248D1A053!_Results.xlsx
+!/data/json/248D1A0531_Info.json
+!/data/json/248D1A053Q_Info.json
+!/data/json/248D1A053X_Info.json
