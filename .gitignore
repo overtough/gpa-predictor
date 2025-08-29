@@ -10,9 +10,9 @@ __pycache__/
 
 # --- DATA & RESULTS ---
 
-# 1. Ignore ALL .xlsx and .json files first
-*.xlsx
-*.json
+# Ignore all contents of these folders...
+data/excel/*
+data/json/*
 
 # 2. Add exceptions for the files you want to KEEP
 !subject_name_map.json

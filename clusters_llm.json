@@ -1,0 +1,44 @@
+[
+  {
+    "cluster_name": "Mathematics",
+    "subjects": [
+      "Ordinary Differential Equations and Vector Calculus",
+      "Linear Algebra and Calculus Lab",
+      "Matrices and Calculus 1"
+    ]
+  },
+  {
+    "cluster_name": "Engineering",
+    "subjects": [
+      "Basic Electrical Engineering",
+      "Basic Electrical and Electronics Engineering Lab",
+      "Engineering Workshop Lab",
+      "Computer Aided Engineering Graphics",
+      "Engineering Chemistry",
+      "Engineering Chemistry Lab"
+    ]
+  },
+  {
+    "cluster_name": "Physics",
+    "subjects": [
+      "Applied Physics",
+      "Applied Physics Lab"
+    ]
+  },
+  {
+    "cluster_name": "Programming",
+    "subjects": [
+      "Python Programming",
+      "Programming for Problem Solving",
+      "Programming for Problem Solving Lab",
+      "Python Programming Lab"
+    ]
+  },
+  {
+    "cluster_name": "English Language",
+    "subjects": [
+      "English Language and Communication Skills Lab",
+      "English for Skill Enhancement"
+    ]
+  }
+]
