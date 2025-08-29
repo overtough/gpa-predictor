@@ -1,0 +1,24 @@
+# IDE configuration files
+.idea/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Trained models
+*.pkl
+
+# --- DATA & RESULTS ---
+
+# 1. Ignore ALL .xlsx and .json files first
+*.xlsx
+*.json
+
+# 2. Add exceptions for the files you want to KEEP
+!subject_name_map.json
+!data/excel/248D1A053X_Results.xlsx
+!data/excel/248D1A053Q_Results.xlsx
+!data/excel/248D1A053!_Results.xlsx
+!data/json/248D1A0531_Info.json
+!data/json/248D1A053Q_Info.json
+!data/json/248D1A053X_Info.json
