@@ -14,7 +14,11 @@ __pycache__/
 data/excel/*
 data/json/*
 
-# 2. Add exceptions for the files you want to KEEP
+# ...but keep the folders themselves so Git can look inside
+!data/excel/
+!data/json/
+
+# Now, add exceptions for the files you want to KEEP
 !subject_name_map.json
 !data/excel/248D1A053X_Results.xlsx
 !data/excel/248D1A053Q_Results.xlsx
