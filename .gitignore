@@ -11,8 +11,6 @@ __pycache__/
 *.json
 
 # 2. Now, create specific exceptions for the files to KEEP
-# The leading slash '/' anchors the path to the root of the project.
-
 !/subject_name_map.json
 !/data/excel/248D1A053X_Results.xlsx
 !/data/excel/248D1A053Q_Results.xlsx
